@@ -21,20 +21,28 @@ The plugin is based on three components
 
 # Logic State Component
 Basic element in the construction of chains. The component settings specify an array of states in which the actor can be.
-For example
-Light bulb: activated, deactivated, broken
-Sun: day, night, morning, evening
-Door: open, closed, locked
+
+**For example:**
+
+**Light bulb**: activated, deactivated, broken
+
+**Sun**: day, night, morning, evening
+
+**Door**: open, closed, locked
 
 # Logical Signal Generator Component
 Generates signals based on the state of the actor.
-For example
-Diesel generator: when activated, it generates noise and electricity. When deactivated, it generates nothing. When broken, it generates only noise.
+
+**For example:**
+
+**Diesel generator**: when activated, it generates noise and electricity. When deactivated, it generates nothing. When broken, it generates only noise.
 
 # Logical Signal Receiver Component
 Changes the actor's states based on received signals from other actors.
-For example
-Light bulb: when it receives electricity, it changes state to activated. If the electrical signal is lost, it switches to a deactivated state (provided that the light bulb is not in the broken state).
+
+**For example:**
+
+**Light bulb**: when it receives electricity, it changes state to activated. If the electrical signal is lost, it switches to a deactivated state (provided that the light bulb is not in the broken state).
 
 
 # Installation
@@ -56,22 +64,30 @@ Also if you want you can download an [example project](https://github.com/SpaceR
 
 # Project settings
 
-The project settings contain the main settings for debugging the plugin. You can find it in "Project settings -> Game -> Advanced logical chains"
+The project settings contain the main settings for debugging the plugin. You can find it in "**Project settings -> Game -> Advanced logical chains**"
 
 ![alt_text](images/image_3.png "Project settings")
 
 **Dashed Line Color** - setting the color of the dotted line connecting generators and receivers.
+
 **Draw Lines** - whether or not to display connecting lines.
+
 **Dashed Line Speed** - speed at which the dashed line will move.
+
 **Offset Between Dashed Lines** - vertical offset between signal lines.
+
 **Debug Draw Max Distance** - the distance from the camera at which to stop drawing lines.
+
 **Draw Sprites** - whether or not to display components sprites.
+
 **Draw Component States** - whether or not to display component states in runtime debug.
 
-#Console commands
+# Console commands
 
 **LogicalChains.ToggleStatesDebug** - text debug for actor state
+
 **LogicalChains.ToggleRuntimeDebug** - dashed line debug
+
 **LogicalChains.DebugDraw.OnlyActiveSignals [true/false]** - only display active dashed lines
 
 ![alt_text](images/debug_states.png "debug states")
@@ -79,6 +95,7 @@ The project settings contain the main settings for debugging the plugin. You can
 # FAQ
 
 Q: **Does the plugin support multiplayer?** 
+
 A: Yes, all the logic works on multiplayer.
 
 # Support
