@@ -1,15 +1,18 @@
 # Advanced Logical Chains
-# What is it?
-Advanced Logical Chains is a UE5 plugin for building complex gameplay logic
+Do you need to create complex game logic? Then this plugin is made for you.
+
+Forget about soft references, "actor picker", manual creation of links and other things - now this is a thing of the past.
+
+**Create complex gameplay logic based on states and signals in a couple of clicks!**
 
 # Features
 
 * Fast and easy construction of gameplay logic
 * Custom editor mode for easy creation and debugging
-* Automatic replication
-* Without soft/hard references and pointers
-* Easy integration
+* Full multiplayer support
 * Accelerated creation of logic in blueprints
+* Easy integration
+* Not need use soft/hard references pointers
 * Fully written in C++
 
 
