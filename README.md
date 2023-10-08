@@ -15,6 +15,14 @@ Forget about soft references, "actor picker", manual creation of links and other
 * Not need use soft/hard references pointers
 * Fully written in C++
 
+# Table of content:
+ - [How it is work?](#how-it-is-work)
+ - [Instalation](#installation)
+ - [Project settings](#project-settings)
+ - [Console commands](#console-commands)
+ - [FAQ](#faq)
+ - [Support](#support)
+
 
 # How it is work?
 
