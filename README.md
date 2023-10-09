@@ -5,6 +5,8 @@ Forget about soft references, "actor picker", manual creation of links and other
 
 **Create complex gameplay logic based on states and signals in a couple of clicks!**
 
+📺Trailer: [Click here to watch on YouTube](https://www.youtube.com/watch?v=rpi5cXVaQU8)
+
 # Features
 
 * Fast and easy construction of gameplay logic
