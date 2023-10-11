@@ -76,7 +76,7 @@ Changes the actor's states based on received signals from other actors.
 **Light bulb**: when it receives electricity, it changes state to activated. If the electrical signal is lost, it switches to a deactivated state (provided that the light bulb is not in the broken state).
 
 # Simplified scheme of work
-![alt_text](images/sheme.png "sheme")
+![alt_text](images/sheme_v.jpg "sheme")
 
 
 # Installation
