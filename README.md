@@ -183,7 +183,7 @@ In the **Logical State** component settings, select **DA_States_Default** as **P
 
 In the **Logical Signal Generator** component settings, add a new Generator Signal.
 
-In the signal settings, add a new element to the **Activation States** array - Activated (This is the state in which the signal will be generated).
+In the signal settings, add a new element to the **Activation States** array - **Activated** (this is the state in which the signal will be generated).
 
 Add a new item to the Signals array and select your signal type tag and signal channel tag.
 
@@ -197,11 +197,11 @@ In the **Logical State** component settings, select **DA_States_Default** as **P
 
 ![](images/examples/example_1/8.png)
 
-In the **Logical Signal Receiver** component settings, add new Signals to Receive.
+In the **Logical Signal Receiver** component settings, add new **Signals to Receive**.
 
 In the signal settings, set **Activated** to **State on Signal** and **Deactivated** to **State on Lost Signal**.
 
-Add a new item to the Signals array and select the same signal type tag and signal channel tag.
+Add a new item to the signals array and select the same signal type tag and signal channel tag.
 
 ![](images/examples/example_1/9.png)
 
