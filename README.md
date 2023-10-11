@@ -156,6 +156,7 @@ The project settings contain the main settings for debugging the plugin. You can
 
 
 # Examples
+![alt_text](images/signal_desc.png "signal")
 
 ## Create simple logic
 
