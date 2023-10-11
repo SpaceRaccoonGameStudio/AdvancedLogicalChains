@@ -157,7 +157,7 @@ The project settings contain the main settings for debugging the plugin. You can
 
 # Examples
 
-# Create simple logic
+## Create simple logic
 
-# Example in demo project
+## Example in demo project
 
