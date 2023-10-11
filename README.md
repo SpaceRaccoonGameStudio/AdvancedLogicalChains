@@ -1,4 +1,5 @@
-# Advanced Logical Chains
+![alt_text](images/logo.png "Advanced logical chains")
+
 Tired of the monotonous creation of entity binding logic? Constantly thinking about replication? Saving states? With our plugin you will forget about this.
 
 **Advanced Logic Chains is a plugin that combines several components to create complex logic based on event-like signals and states**
