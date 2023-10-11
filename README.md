@@ -27,8 +27,6 @@ Spend your time making the game, not solving problems
  - [Instalation](#installation)
  - [Project settings](#project-settings)
  - [Console commands](#console-commands)
- - [FAQ](#faq)
- - [Support](#support)
 
 # Features
 
@@ -45,7 +43,7 @@ Spend your time making the game, not solving problems
 
 # How it is work?
 
-The plugin is based on three components - **Logical state**, **Logical receiver** & **Logical generator** components.
+The plugin is based on three components - **Logical state**, **Logical receiver** & **Logical generator** components. 
 
 ![alt_text](images/image_1.png "components")
 
@@ -92,6 +90,8 @@ First you need to install the plugin on the engine. You can do this through the 
 
 If you want use plugin as project plugin you can manually copy plugin from “**Engine/Plugins/Marketplace/LogicalChains**” folder to you “**Project/Plugins/LogicalChains**” folder
 
+**WARNING: FOR SUCCESSFUL PACKAGE BUILD - YOU NEED USE C++ PROJECT!**
+
 
 # Project settings
 
@@ -122,19 +122,3 @@ The project settings contain the main settings for debugging the plugin. You can
 **LogicalChains.DebugDraw.OnlyActiveSignals [true/false]** - only display active dashed lines
 
 ![alt_text](images/debug_states.png "debug states")
-
-# FAQ
-
-Q: **Does the plugin support multiplayer?** 
-
-A: Yes, all the logic works on multiplayer.
-
-# Support
-
-If you have any additional questions or suggestions, do not hesitate to express them. You can
-
-do it through our official discord group or via email
-
-**Discord** : [https://discord.gg/4FtCJnMuxb](https://discord.gg/4FtCJnMuxb)
-
-**Email** : [support@space-raccoon.com](mailto:support@space-raccoon.com)
