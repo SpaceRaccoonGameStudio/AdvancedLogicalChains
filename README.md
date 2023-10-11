@@ -156,7 +156,120 @@ The project settings contain the main settings for debugging the plugin. You can
 
 
 # Examples
-![alt_text](images/signal_desc.png "signal")
+
+We will consider the work with the plugin by example.
+
+Create two new actors and name it **BP_Generator** and **BP_Light_Bulb**
+
+![](images/examples/example_1/1.png)
+
+Create new **LogicalStateDataAsset** and name it **DA_States_Default**
+
+![](images/examples/example_1/2.png)
+
+Add two new lines to the data asset: **Activated** and **Deactivated**
+
+![](images/examples/example_1/3.png)
+
+Add Logical State and Logical Signal Generator components to BP_Generator
+
+![](images/examples/example_1/4.png)
+
+In the **Logical State** component settings, select **DA_States_Default** as **Parent States** and **Deactivated** as **Initialization State**
+
+![](images/examples/example_1/5.png)
+
+In the **Logical Signal Generator** component settings, add a new Generator Signal.
+In the signal settings, add a new element to the **Activation States** array - Activated (This is the state in which the signal will be generated).
+Add a new item to the Signals array and select your signal type tag and signal channel tag.
+
+![](images/examples/example_1/6.png)
+
+Add **Point Light**, **Logical State** and **Logical Signal Receiver** components to **BP_Light_Bulb**
+
+![](images/examples/example_1/7.png)
+
+In the **Logical State** component settings, select **DA_States_Default** as **Parent States** and **Deactivated** as **Initialization State**
+
+![](images/examples/example_1/8.png)
+
+In the **Logical Signal Receiver** component settings, add new Signals to Receive.
+
+In the signal settings, set **Activated** to **State on Signal** and **Deactivated** to **State on Lost Signal**.
+
+Add a new item to the Signals array and select the same signal type tag and signal channel tag.
+
+![](images/examples/example_1/9.png)
+
+Add a new event to the **Logical State** component **OnStateChanged**
+
+![](images/examples/example_1/10.png)
+
+Add a switch node
+
+![](images/examples/example_1/11.png)
+
+In the switch node settings, click the **Add All States** button
+
+![](images/examples/example_1/12.png)
+
+Add **Set Visibility** for **Point Light**
+
+![](images/examples/example_1/13.png)
+
+Add our two actors to the map and switch the editor to **Logical Chains mode**.
+
+![](images/examples/example_1/14.png)
+
+![](images/examples/example_1/15.png)
+
+![](images/examples/example_1/16.png)
+
+To test it, let's add some code to the level blueprint (If you have an interact system in your project, you can use it)
+
+![](images/examples/example_1/17.png)
+
+Now we can check
+
+![](gifs/Gif1.gif)
+
+Now let's try adding a switch and extra bulbs to our circuit
+
+Create new actor and name it **BP_Switch**
+
+Add **Logical State** and **Logical Signal Generator** components
+
+![](images/examples/example_1/18.png)
+
+**Logical State Component** settings
+
+![](images/examples/example_1/19.png)
+
+**Logical Signal Generator** settings
+
+![](images/examples/example_1/20.png)
+
+It's the same **BP_Generator** that generates a different signal, but in it, we'll add a visual display of the toggle. In the State component, select OnStateChanged event
+
+![](images/examples/example_1/21.png)
+
+And add your logic, in my example we just change the color of the cone
+
+![](images/examples/example_1/22.png)
+
+On the map in the settings of the bulb, change the conditions, adding a new signal required to turn on the bulb
+
+![](images/examples/example_1/23.png)
+
+Add **BP_Switch** to the map and code to check work in level blueprint
+
+![](images/examples/example_1/24.png)
+
+![](gifs/Gif2.gif)
+
+We can also add additional bulbs, and each bulb can be configured to behave separately. (in the example, the top bulbs are connected only to the generator, the right one to the switch and the generator).
+
+![](gifs/Gif3.gif)
 
 ## Create simple logic
 
