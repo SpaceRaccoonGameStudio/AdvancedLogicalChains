@@ -66,7 +66,13 @@ Signal are a structure containing:
 2) **Channel** (e.g. 0, 1, etc) - Channels are necessary in order not to use a huge number of unique signal types. At their core, they are gameplay tags and can also be expanded by adding new tags.
 3) **Format** - Signal format: Infinity or Impulse, currently only Infinity type is supported.
 
-## State
+## States
+
+It is a set of states to control the behavior of an actor based on signals. States can be inherited from a data asset or added directly to a component. Events for changing states and state management functions are also available (such as se tate or get current/previous state)
+
+![alt_text](images/states_1.png "State data asset")
+
+![alt_text](images/states_2.png "State switching")
 
 # Installation
 
@@ -277,3 +283,16 @@ We can also add additional bulbs, and each bulb can be configured to behave sepa
 
 ## Example in demo project
 
+This examples available in our example project:
+
+![alt_text](images/examples/example_1.png "Example 1")
+
+![alt_text](images/examples/example_2.png "Example 2")
+
+![alt_text](images/examples/example_3.png "Example 3")
+
+![alt_text](images/examples/example_4.png "Example 4")
+
+![alt_text](images/examples/example_5_1.png "Example 5")
+
+![alt_text](images/examples/example_5_2.png "Example 5")
