@@ -157,6 +157,8 @@ The project settings contain the main settings for debugging the plugin. You can
 
 # Examples
 
+## Create simple logic
+
 We will consider the work with the plugin by example.
 
 Create two new actors and name it **BP_Generator** and **BP_Light_Bulb**
@@ -180,7 +182,9 @@ In the **Logical State** component settings, select **DA_States_Default** as **P
 ![](images/examples/example_1/5.png)
 
 In the **Logical Signal Generator** component settings, add a new Generator Signal.
+
 In the signal settings, add a new element to the **Activation States** array - Activated (This is the state in which the signal will be generated).
+
 Add a new item to the Signals array and select your signal type tag and signal channel tag.
 
 ![](images/examples/example_1/6.png)
@@ -270,8 +274,6 @@ Add **BP_Switch** to the map and code to check work in level blueprint
 We can also add additional bulbs, and each bulb can be configured to behave separately. (in the example, the top bulbs are connected only to the generator, the right one to the switch and the generator).
 
 ![](gifs/Gif3.gif)
-
-## Create simple logic
 
 ## Example in demo project
 
