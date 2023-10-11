@@ -7,6 +7,29 @@ Spend your time making the game, not solving problems
 
 📺Trailer: [Click here to watch on YouTube](https://youtu.be/ORbq8y8v53c)
 
+📂Demo project: [Click here to download](https://drive.google.com/drive/folders/1iB-wzi5HbQ1Z6RaKk9LkEErb7-Z9iFu6?usp=sharing)
+
+📂Example project for owners: [Click here to download](https://drive.google.com/drive/folders/1H2EZMnxkOb9KNYtfeYfUN-U6V6ydbAlO?usp=sharing)
+
+📝Changelog: [Click here to see](https://github.com/SpaceRaccoonGameStudio/AdvancedLogicalChains/blob/main/CHANGELOG.md)
+
+➡️Roadmap: [Click here to watch on YouTube](https://github.com/orgs/SpaceRaccoonGameStudio/projects/2/views/1)
+
+🚧Issue tracker: [Click here to watch on YouTube](https://github.com/SpaceRaccoonGameStudio/AdvancedLogicalChains/issues)
+
+💬Support Discord group: [Click here to join](https://discord.gg/4FtCJnMuxb)
+
+✅Our other plugins: [Click here to see](https://www.unrealengine.com/marketplace/en-US/profile/Space+Raccoon+Game+Studio?count=20&sortBy=effectiveDate&sortDir=DESC&start=0)
+
+# Table of content:
+ - [Features](#features)
+ - [How it is work?](#how-it-is-work)
+ - [Instalation](#installation)
+ - [Project settings](#project-settings)
+ - [Console commands](#console-commands)
+ - [FAQ](#faq)
+ - [Support](#support)
+
 # Features
 
 * Fast and easy construction of gameplay logic
@@ -19,23 +42,18 @@ Spend your time making the game, not solving problems
 * Optimized for big worlds (full world partition support)
 * Production ready
 
-# Table of content:
- - [How it is work?](#how-it-is-work)
- - [Instalation](#installation)
- - [Project settings](#project-settings)
- - [Console commands](#console-commands)
- - [FAQ](#faq)
- - [Support](#support)
-
 
 # How it is work?
 
-The plugin is based on three components - **Logical state**, **Logical receiver** & **Logical generator** components
+The plugin is based on three components - **Logical state**, **Logical receiver** & **Logical generator** components.
 
 ![alt_text](images/image_1.png "components")
 
 # Logic State Component
 Basic element in the construction of chains. The component settings specify an array of states in which the actor can be.
+It is used to switch the states of actors - it can happen manually (for example from blueprints), based on replication, or using a **Logical receiver component**. 
+
+**Logical state component is required for all actors that want to receive or send signals**, it serves to connect signals and logic inside the actor.
 
 **For example:**
 
@@ -59,6 +77,9 @@ Changes the actor's states based on received signals from other actors.
 
 **Light bulb**: when it receives electricity, it changes state to activated. If the electrical signal is lost, it switches to a deactivated state (provided that the light bulb is not in the broken state).
 
+# Simplified scheme of work
+![alt_text](images/sheme.png "sheme")
+
 
 # Installation
 
@@ -70,11 +91,6 @@ First you need to install the plugin on the engine. You can do this through the 
 ## Using plugin as project plugin
 
 If you want use plugin as project plugin you can manually copy plugin from “**Engine/Plugins/Marketplace/LogicalChains**” folder to you “**Project/Plugins/LogicalChains**” folder
-
-
-## Example project
-
-Also if you want you can download an [example project](https://github.com/SpaceRaccoonGameStudio/AdvancedLogicalChains)
 
 
 # Project settings
