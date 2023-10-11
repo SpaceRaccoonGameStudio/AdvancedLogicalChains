@@ -1,9 +1,9 @@
 # Advanced Logical Chains
-Do you need to create complex game logic? Then this plugin is made for you.
+Tired of the monotonous creation of entity binding logic? Constantly thinking about replication? Saving states? With our plugin you will forget about this.
 
-Forget about soft references, "actor picker", manual creation of links and other things - now this is a thing of the past.
+**Advanced Logic Chains is a plugin that combines several components to create complex logic based on event-like signals and states**
 
-**Create complex gameplay logic based on states and signals in a couple of clicks!**
+Spend your time making the game, not solving problems
 
 📺Trailer: [Click here to watch on YouTube](https://youtu.be/ORbq8y8v53c)
 
@@ -16,6 +16,8 @@ Forget about soft references, "actor picker", manual creation of links and other
 * Easy integration
 * Not need use soft/hard references pointers
 * Fully written in C++
+* Optimized for big worlds (full world partition support)
+* Production ready
 
 # Table of content:
  - [How it is work?](#how-it-is-work)
@@ -28,7 +30,7 @@ Forget about soft references, "actor picker", manual creation of links and other
 
 # How it is work?
 
-The plugin is based on three components
+The plugin is based on three components - **Logical state**, **Logical receiver** & **Logical generator** components
 
 ![alt_text](images/image_1.png "components")
 
