@@ -253,7 +253,7 @@ Add **Logical State** and **Logical Signal Generator** components
 
 ![](images/examples/example_1/20.png)
 
-It's the same **BP_Generator** that generates a different signal, but in it, we'll add a visual display of the toggle. In the State component, select OnStateChanged event
+It's the same **BP_Generator** that generates a different signal, but in it, we'll add a visual display of the toggle. In the **State component**, select **OnStateChanged** event
 
 ![](images/examples/example_1/21.png)
 
