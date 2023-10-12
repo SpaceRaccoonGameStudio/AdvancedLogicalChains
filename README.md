@@ -79,7 +79,7 @@ It is a set of states to control the behavior of an actor based on signals. Stat
 
 First you need to install the plugin on the engine. You can do this through the official epic games launcher.
 
-![alt_text](images/image_2.png "Installation")
+![alt_text](images/install.png "Installation")
 
 
 ## Using plugin as project plugin
