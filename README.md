@@ -6,7 +6,7 @@ Tired of the monotonous creation of entity binding logic? Constantly thinking ab
 
 Spend your time making the game, not solving problems
 
-📺Trailer: [Click here to watch on YouTube](https://youtu.be/ORbq8y8v53c)
+📺Teaser: [Click here to watch on YouTube](https://youtu.be/ORbq8y8v53c)
 
 📂Demo project: [Click here to download](https://drive.google.com/drive/folders/1iB-wzi5HbQ1Z6RaKk9LkEErb7-Z9iFu6?usp=sharing)
 
