@@ -81,6 +81,7 @@ A set of states controls the behavior of an actor based on signals. States can b
 
 For networking, replication of actors (component owners) is required.
 Enable **Replicates** in the actor settings
+![alt_text](images/Replicates.png "Replicates")
 
 # Installation
 
