@@ -77,12 +77,6 @@ A set of states controls the behavior of an actor based on signals. States can b
 
 ![alt_text](images/states_2.png "State switching")
 
-## Networking and Multiplayer
-
-For networking, replication of actors (component owners) is required.
-Enable **Replicates** in the actor settings
-![alt_text](images/Replicates.png "Replicates")
-
 # Installation
 
 First you need to install the plugin on the engine. You can do this through the official epic games launcher.
@@ -124,6 +118,12 @@ Logical Signal Receiver Component switches the actor's states based on the signa
 **For example:**
 
 **Light bulb**: when it receives electricity, it changes state to activated. If the electrical signal is lost, it switches to a deactivated state (in case the light bulb is not in the broken state).
+
+## Networking and Multiplayer
+
+For networking, replication of actors (component owners) is required.
+Enable **Replicates** in the actor settings
+![alt_text](images/Replicates.png "Replicates")
 
 # Editor mode
 
