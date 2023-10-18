@@ -77,6 +77,11 @@ A set of states controls the behavior of an actor based on signals. States can b
 
 ![alt_text](images/states_2.png "State switching")
 
+## Networking and Multiplayer
+
+For networking, replication of actors (component owners) is required.
+Enable **Replicates** in the actor settings
+
 # Installation
 
 First you need to install the plugin on the engine. You can do this through the official epic games launcher.
