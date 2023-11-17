@@ -7,6 +7,7 @@
 - Added blueprint function "ToSting" for a signal
 - Added save/load mechanism for logical chains subsystem
 - Added save/load game support to example project
+- Added main menu to example project with level selection
 
 ## Fixed
 - Fixed some visual bugs in editor mode
