@@ -1,3 +1,12 @@
+# v.1.0.3
+
+## Added
+- Added electricity example (RUST style)
+- Added new demo map
+
+## Fixed
+- Fixed bug in editor mode with wrong layer selection
+
 # v.1.0.2
 
 ## Added
