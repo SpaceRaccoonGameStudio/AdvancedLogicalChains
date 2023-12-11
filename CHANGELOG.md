@@ -7,6 +7,9 @@
 ## Fixed
 - Fixed bug in editor mode with wrong layer selection
 
+## Other
+- Decreased compile time
+
 # v.1.0.2
 
 ## Added
