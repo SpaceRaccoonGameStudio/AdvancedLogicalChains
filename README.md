@@ -190,3 +190,7 @@ This example is available in our demo project:
 ![alt_text](images/examples/example_5_1.png "Example 5")
 
 ![alt_text](images/examples/example_5_2.png "Example 5")
+
+![alt_text](images/examples/example_6.png "Example 6")
+
+![alt_text](images/examples/example_7.png "Example 7")
